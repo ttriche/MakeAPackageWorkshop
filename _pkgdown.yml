@@ -1,4 +1,4 @@
-url: https://seandavi.github.io/BuildABiocWorkshop
+url: https://ttriche.github.io/MakeAPackagWorkshop
 
 template:
   params:
@@ -6,13 +6,11 @@ template:
     #ganalytics: UA-99999999-9
 
 home:
-  title: "BuildABiocWorkshop"
+  title: "MakeAPackagWorkshop"
   type: inverse
 
 
 navbar:
   right:
    - icon: fa-github
-     href: https://github.com/seandavi/BuildABiocWorkshop
-     
-
+     href: https://github.com/ttriche/MakeAPackageWorkshop
