@@ -1,4 +1,4 @@
-Package: BuildABiocWorkshop
+Package: MakeAPackageWorkshop
 Title: Bioconductor or R Workshop Template and Github Actions
 Version: 2.0.1
 Authors@R: c(
