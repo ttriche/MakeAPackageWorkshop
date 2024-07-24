@@ -1,4 +1,4 @@
-# BuildABiocWorkshop
+# MakeAPackageWorkshop
 
 This package is a template for building a Bioconductor workshop. The package
 includes Github actions to:
@@ -25,13 +25,13 @@ For detailed instructions, see the `How to build a workshop` article/vignette.
 ## Results of successful deployment
 
 - A working docker image that contains the installed package and dependencies.
-- An up-to-date `pkgdown` website at https://YOURUSERNAME.github.io/YOURREPOSITORYNAME/
+- An up-to-date `pkgdown` website at https://ttriche.github.io/MakeAPackageWorkshop
 - Docker image will be tagged with `latest`, `sha-XXXXXX` where `XXXXXX` is the hash of the current `master` commit, and `master`. 
 
 ## To use the resulting image:
 
 ```sh
-docker run -e PASSWORD=<choose_a_password_for_rstudio> -p 8787:8787 YOURDOCKERIMAGENAME
+docker run -e PASSWORD=<choose_a_password_for_rstudio> -p 8787:8787 ghcr.io/ttriche/makeapackageworkshop:latest
 ```
 Once running, navigate to http://localhost:8787/ and then login with `rstudio`:`yourchosenpassword`. 
 
@@ -48,5 +48,5 @@ variable instead of plain text to pass along passwords and other secrets in dock
 
 ## Whatcha get
 
-- https://bioconductor.github.io/BuildABiocWorkshop
+- https://ttriche.github.io/MakeAPackageWorkshop
 - A Docker image that you can run locally, in the cloud, or (usually) even as a singularity container on HPC systems. 
